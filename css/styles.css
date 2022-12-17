@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/*Paleta de colores*/
+/*Paleta de colores*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.question, .h3, .h2 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.mapa {
+  /*Soluciona el problema del iframe*/
+  overflow: hidden;
+  width: 100%;
+}
+
+.question {
+  color: #fff;
+}
+
+#refContacto {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #F96E46;
+  color: #fff;
+}
+nav .logo {
+  height: 3rem;
+}
+
+main {
+  text-align: center;
+}
+
+div .row {
+  justify-content: center;
+}
+
+.imgIndex .imagInicio {
+  margin: 10px;
+}
+.imgIndex img {
+  width: 100%;
+  margin: 10px 0;
+  transition: 0.3s ease-in-out;
+}
+.imgIndex img:hover {
+  width: 105%;
+}
+
+.accordion-item {
+  background-color:#FABAA7;
+}
+.accordion-item .accordion-button {
+  background-color: #F96E46;
+}
+
+.contactbox {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: #FABAA7;
+  border: 5px;
+  border-style: dashed;
+  border-color: #F96E46;
+  padding: 20px;
+  justify-content: center;
+}
+
+#adjuntar {
+  font-style: italic;
+}
+
+.imgSection {
+  /* Ajustes de las imagenes en secciones/main */
+  width: auto;
+  height: 100%;
+  border-radius: 5px;
+  border: #F6D7A7 5px solid;
+  margin: 0.5rem;
+  margin: 12px 0;
+}
+
+.imagSocios {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgCentrado {
+  width: 100%;
+}
+
+footer {
+  /* Estilos del footer (color del fondo y texto, alineación centrada) */
+  text-align: center;
+  margin-top: auto;
+  background-color: #255C99;
+  color: #fff;
+  width: 100%;
+  align-self: flex-end;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rrss {
+  /* tamaño de los logos de redes sociales */
+  width: auto;
+  height: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.btn-primary {
+  background-color: #F96E46;
+  border-color: #c45638;
+}
+
+.btn-primary:hover {
+  background-color: #f04211;
+  border-color: #f04211;
+}
+
+/*# sourceMappingURL=styles.css.map */
